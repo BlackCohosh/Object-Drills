@@ -157,20 +157,20 @@ function greeting( obj ) {
 */
 
 //Code Here
-function ingredients(stats){
+// function ingredients(stats){
 
-  var stats = {
-    carb: 'flour',
-    fat: 'butter',
-    protein: 'egg'
-  }
+//   var stats = {
+//     carb: 'flour',
+//     fat: 'butter',
+//     protein: 'egg'
+//   }
   
-  let {carb: foodCarb, fat: foodFat, protein: foodProtein} = stats
-  shoppingList = []
-  shoppingList.push(foodCarb, foodFat, foodProtein)
-return shoppingList
-}
-console.log(ingredients())
+//   let {carb: foodCarb, fat: foodFat, protein: foodProtein} = stats
+//   shoppingList = []
+//   shoppingList.push(foodCarb, foodFat, foodProtein)
+// return shoppingList
+// }
+// console.log(ingredients())
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
@@ -191,7 +191,9 @@ var user = {
 */
 
 //Code Here
-
+user.name = 'Bryan G. Smith';
+user.email = 'bryan.smith@devmounta.in';
+console.log(user)
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
