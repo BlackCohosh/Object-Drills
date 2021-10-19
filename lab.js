@@ -231,18 +231,18 @@ var user = {
 */
 
 //Code here
-class Wizard {
-  constructor(name, age, favoriteSpell) {
-    this.name = name;
-    this.age = age;
-    this.favoriteSpell = favoriteSpell;
-  }
-  castSpell() {
-    console.log(`${this.name} has cast ${this.favoriteSpell}`)
-  }
-}
-let caleb = new Wizard('Caleb', '34', 'Fireball')
-caleb.castSpell()
+// class Wizard {
+//   constructor(name, age, favoriteSpell) {
+//     this.name = name;
+//     this.age = age;
+//     this.favoriteSpell = favoriteSpell;
+//   }
+//   castSpell() {
+//     console.log(`${this.name} has cast ${this.favoriteSpell}`)
+//   }
+// }
+// let caleb = new Wizard('Caleb', '34', 'Fireball')
+// caleb.castSpell()
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
     Write a class called Phone. We'll use it as if we were creating
@@ -267,7 +267,23 @@ caleb.castSpell()
 */
 
 //Code Here
-
+class Phone{
+  constructor(brand, model, storage, color, price){
+    this.brand = brand;
+    this.model = model;
+    this.storage = storage;
+    this.color = color;
+    this.price = price;
+    this.sold = false;
+  }
+  sell(){
+    this.sold = true;
+    console.log(`${this.brand}, ${this.model} has been sold.`)
+  }
+  changePrice(newPrice){
+    this.price=newPrice;
+  }
+}
   
 /*
     Next make three new phone instances using your class.
@@ -280,7 +296,9 @@ caleb.castSpell()
 */
 
 //Code Here
-
+let phone1 = new Phone('Apple', '13', 32, 'silver', 699);
+let phone2 = new Phone('Samsung', 'Galaxy', 64, 'black', 899);
+let phone3 = new Phone('Google', 'Pixel', 64, 'gray', 499)
 /* 
   Call the changePrice function on one of your phones, 
   don't forget to pass in a new price 
@@ -289,7 +307,8 @@ caleb.castSpell()
 */ 
 
 //Code Here 
-
+phone2.changePrice(599);
+console.log(phone2.price);
 
 /*
   Now call the sell method on one of your other phone objects
@@ -298,7 +317,8 @@ caleb.castSpell()
 */
 
 //Code Here 
-
+phone3.sell();
+console.log(phone3.sold);
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
