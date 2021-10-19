@@ -133,18 +133,18 @@ function greeting( obj ) {
 */
 
 //Code Here
-function totalPopulation(states) {
-  var states = {
-    utah: 500,
-    california: 2000,
-    texas: 1000,
-    arizona: 500
-  }
-let {utah: utahPop, california: caliPop, texas: texPop, arizona: arizonaPop} = states
-let totalPop = utahPop + caliPop + texPop + arizonaPop
-console.log(totalPop)
-} 
-return totalPopulation()
+// function totalPopulation(states) {
+//   var states = {
+//     utah: 500,
+//     california: 2000,
+//     texas: 1000,
+//     arizona: 500
+//   }
+// let {utah: utahPop, california: caliPop, texas: texPop, arizona: arizonaPop} = states
+// let totalPop = utahPop + caliPop + texPop + arizonaPop
+// console.log(totalPop)
+// } 
+// return totalPopulation()
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
@@ -157,8 +157,20 @@ return totalPopulation()
 */
 
 //Code Here
+function ingredients(stats){
 
-
+  var stats = {
+    carb: 'flour',
+    fat: 'butter',
+    protein: 'egg'
+  }
+  
+  let {carb: foodCarb, fat: foodFat, protein: foodProtein} = stats
+  shoppingList = []
+  shoppingList.push(foodCarb, foodFat, foodProtein)
+return shoppingList
+}
+console.log(ingredients())
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
