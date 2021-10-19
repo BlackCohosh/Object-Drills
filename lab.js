@@ -6,8 +6,8 @@
 
 //Code here
 let me = {
-  name = 'Lance'
-  age = 34
+  name: 'Lance',
+  age: 34
 }
 
 
@@ -20,10 +20,10 @@ let me = {
 
 //Code here
 let dog = {
-  name = 'C.C.',
-  color = 'Speckled',
-  age = '5',
-  goodGirl = true
+  name: 'C.C.',
+  color: 'Speckled',
+  age: '5',
+  goodGirl: true
 }
 
 
@@ -31,7 +31,7 @@ let dog = {
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
-
+console.log(dog['name'])
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
