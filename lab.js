@@ -120,7 +120,7 @@ function greeting( obj ) {
   // Do not edit the code above.
 }
 
-console.log(greeting())
+//console.log(greeting())
 
 //////////////////////////// PROBLEM 8 ////////////////////////////
 
@@ -133,8 +133,18 @@ console.log(greeting())
 */
 
 //Code Here
-
-
+function totalPopulation(states) {
+  var states = {
+    utah: 500,
+    california: 2000,
+    texas: 1000,
+    arizona: 500
+  }
+let {utah: utahPop, california: caliPop, texas: texPop, arizona: arizonaPop} = states
+let totalPop = utahPop + caliPop + texPop + arizonaPop
+console.log(totalPop)
+} 
+return totalPopulation()
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
