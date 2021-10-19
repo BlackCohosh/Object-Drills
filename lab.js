@@ -64,16 +64,16 @@ let favoriteThings = {
 //Code here
 favoriteThings['car'] = 'Rivian'
 favoriteThings['show'] = 'Adventure Time'
-console.log(favoriteThings)
+//console.log(favoriteThings)
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'. (If they were either of those things already, change them to something else.)
 */
 
 //Code here
-favoriteThings.food = 'Chicken Nuggets'
-favoriteThings.book = 'Harry Potter'
-console.log(favoriteThings)
+// favoriteThings.food = 'Chicken Nuggets'
+// favoriteThings.book = 'Harry Potter'
+//console.log(favoriteThings)
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
@@ -91,6 +91,11 @@ var carDetails = {
 */
 
 //Code Here
+let carColor = carDetails.color
+let carMake = carDetails.make
+let carModel = carDetails.model
+let carYear = carDetails.year
+
 
 
 
