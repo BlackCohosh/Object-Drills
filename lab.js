@@ -109,13 +109,18 @@ let carYear = carDetails.year
 
 function greeting( obj ) {
   //Code Here
-  
+  var obj = {
+    first: 'Stan',
+    family: 'Marsh',
+    role: 'student'
+ }
+  let {first: firstName, family: lastName, role: title} = obj
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
 
-
+console.log(greeting())
 
 //////////////////////////// PROBLEM 8 ////////////////////////////
 
