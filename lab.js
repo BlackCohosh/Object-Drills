@@ -19,7 +19,12 @@ let me = {
 //and goodBoy/goodGirl (a boolean).
 
 //Code here
-
+let dog = {
+  name = 'C.C.',
+  color = 'Speckled',
+  age = '5',
+  goodGirl = true
+}
 
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
