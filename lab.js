@@ -307,8 +307,8 @@ let phone3 = new Phone('Google', 'Pixel', 64, 'gray', 499)
 */ 
 
 //Code Here 
-phone2.changePrice(599);
-console.log(phone2.price);
+// phone2.changePrice(599);
+// console.log(phone2.price);
 
 /*
   Now call the sell method on one of your other phone objects
@@ -317,8 +317,8 @@ console.log(phone2.price);
 */
 
 //Code Here 
-phone3.sell();
-console.log(phone3.sold);
+// phone3.sell();
+// console.log(phone3.sold);
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
@@ -338,6 +338,12 @@ const colors = {
 
 //Code Here 
 
+// let {background:backgroundCopy, highlight:highlightCopy, text:textCopy} = colors
+// colorCopy = [backgroundCopy, highlightCopy, textCopy]
+var colorCopy = {
+  ...colors
+};
+console.log(colorCopy)
 
 
 /*
@@ -365,10 +371,13 @@ const shippingInfo = {
 //do not edit the objects above
 
 //Code Here
-
+var helensInfo = {
+  ...contactInfo,
+  ...shippingInfo
+};
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
-
+console.log(helensInfo)
 
 //////////////////////////// PROBLEM 16 ////////////////////////////
 
